@@ -3,7 +3,7 @@ package com.glushkovdenis.spring5recipeapp.domain;
 import javax.persistence.*;
 
 @Entity
-public class Notes {
+public class Note {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,11 +31,11 @@ public class Notes {
         this.recipe = recipe;
     }
 
-    public String getRecipeNotes() {
+    public String getRecipeNote() {
         return recipeNotes;
     }
 
-    public void setRecipeNotes(String recipeNotes) {
+    public void setRecipeNote(String recipeNotes) {
         this.recipeNotes = recipeNotes;
     }
 }

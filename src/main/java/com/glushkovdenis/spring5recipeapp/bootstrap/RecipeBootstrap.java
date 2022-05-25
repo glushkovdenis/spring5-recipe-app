@@ -124,7 +124,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 + "Garnish with slices of red radish or jigama strips. Serve with your choice of store-bought tortilla chips or make your own homemade tortilla chips."
         );
         Note guacNote = new Note();
-        guacNote.setRecipeNote(
+        guacNote.setRecipeNotes(
                 "Be careful handling chilis! If using, it's best to wear food-safe gloves. If no gloves are available, wash your hands thoroughly after handling, and do not touch your eyes or the area near your eyes for several hours afterwards."
                 + "Chilling tomatoes hurts their flavor. So, if you want to add chopped tomato to your guacamole, add it just before serving."
         );
@@ -166,7 +166,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
               + "Slice the chicken into strips. On each tortilla, place a small handful of arugula. Top with chicken slices, sliced avocado, radishes, tomatoes, and onion slices. Drizzle with the thinned sour cream. Serve with lime wedges."
         );
         Note tacosNote = new Note();
-        tacosNote.setRecipeNote("Look for ancho chile powder with the Mexican ingredients at your grocery store, on buy it online. (If you can't find ancho chili powder, you replace the ancho chili, the oregano, and the cumin with 2 1/2 tablespoons regular chili powder, though the flavor won't be quite the same.)");
+        tacosNote.setRecipeNotes("Look for ancho chile powder with the Mexican ingredients at your grocery store, on buy it online. (If you can't find ancho chili powder, you replace the ancho chili, the oregano, and the cumin with 2 1/2 tablespoons regular chili powder, though the flavor won't be quite the same.)");
         tacos.setNotes(tacosNote);
         tacos.addIngredient(new Ingredient("ancho chili powder", new BigDecimal(2), tablespoonUom));
         tacos.addIngredient(new Ingredient("dried oregano", new BigDecimal(1), teaspoonUom));

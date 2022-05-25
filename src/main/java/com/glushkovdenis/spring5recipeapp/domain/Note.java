@@ -19,12 +19,4 @@ public class Note {
 
     @Lob
     private String recipeNotes;
-
-    public String getRecipeNote() {
-        return recipeNotes;
-    }
-
-    public void setRecipeNote(String recipeNotes) {
-        this.recipeNotes = recipeNotes;
-    }
 }

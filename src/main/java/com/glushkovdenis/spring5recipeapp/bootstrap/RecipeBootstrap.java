@@ -144,7 +144,6 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 
         recipes.add(guacamole);
 
-        //TODO: Spicy Grilled Chicken Tacos
         Recipe tacos = new Recipe();
         tacos.setDescription("Spicy Grilled Chicken Tacos");
         tacos.setPrepTime(20);

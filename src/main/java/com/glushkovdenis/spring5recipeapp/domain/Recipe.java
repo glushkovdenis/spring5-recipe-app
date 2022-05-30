@@ -42,8 +42,10 @@ public class Recipe {
     private Set<Category> categories = new HashSet<>();
 
     public void setNotes(Note note) {
-        this.note = note;
-        note.setRecipe(this);
+        if (note != null) {
+            this.note = note;
+            note.setRecipe(this);
+        }
     }
 
     public Recipe addIngredient(Ingredient ingredient) {
